@@ -1,0 +1,239 @@
+@charset "utf-8";
+body {
+    width: 30%;
+    height: 90%;
+    position: absolute;
+    left: 35%;
+    top: 4%;
+    border: 4px outset gray;
+    border-radius: 20px;
+    background: url("../calc1/calculo1.jpg") left center/100% 100% no-repeat fixed;
+}
+
+form {
+    margin: 0px;
+    padding: 293px;
+    padding-right: 30px;
+    padding-bottom: 299px;
+    border-radius: 14px;
+    background: linear-gradient(to bottom, rgb(0, 41, 128), rgb(216, 6, 118), rgb(7, 150, 78));
+}
+
+button {
+    margin: 10px;
+    padding: 20px;
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+    background-color: rgba(12, 214, 180, 0.11);
+    color: rgb(255, 255, 255);
+    border: 3px outset gray;
+    transition: linear 0.2s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.zero {
+    /*Padrõo*/
+    left: 10%;
+    top: 80%;
+}
+
+.um {
+    /*Não identados*/
+    left: 10%;
+    top: 67%;
+    padding-right: 23px;
+    text-indent: 3px;
+}
+
+.quatro {
+    /*Identados*/
+    left: 10%;
+    top: 54%;
+    padding-right: 22px;
+}
+
+.sete {
+    left: 10%;
+    top: 41%;
+    padding-right: 24px;
+}
+
+.ponto {
+    left: 28%;
+    top: 80%;
+    padding-right: 23px;
+    text-indent: 5px;
+}
+
+.dois {
+    left: 28%;
+    top: 67%;
+}
+
+.cinco {
+    left: 28%;
+    top: 54%;
+}
+
+.oito {
+    left: 28%;
+    top: 41%;
+}
+
+.igl {
+    left: 46%;
+    top: 80%;
+    padding-right: 23px;
+}
+
+.tres {
+    left: 46%;
+    top: 67%;
+}
+
+.seis {
+    left: 46%;
+    top: 54%;
+}
+
+.nove {
+    left: 46%;
+    top: 41%;
+}
+
+.off {
+    left: 10%;
+    top: 28%;
+    padding-right: 13px;
+    padding-left: 11px;
+}
+
+.radic {
+    left: 28%;
+    top: 28%;
+    font-weight: 900;
+    padding-right: 24px;
+    padding-bottom: 17px;
+}
+
+.porct {
+    left: 46%;
+    top: 28%;
+}
+
+.mais {
+    left: 64%;
+    top: 67%;
+    padding-right: 24px;
+    padding-top: 20px;
+    font-size: 75px;
+    border-radius: 35px 7px 35px 7px;
+    transition: linear 0.2s;
+}
+
+.mais:hover {
+    background-color: rgba(8, 221, 8, 0.493);
+}
+
+.menos {
+    left: 64%;
+    top: 54%;
+    font-size: 25px;
+    padding-right: 34.5px;
+    padding-left: 30.5px;
+    padding-bottom: 13.5px;
+    padding-top: 11.5px;
+}
+
+.mult {
+    left: 64%;
+    top: 41%;
+    font-size: 25px;
+    padding-right: 32px;
+    padding-left: 28px;
+    padding-bottom: 13.5px;
+    padding-top: 11.5px;
+}
+
+.divi {
+    left: 64%;
+    top: 28%;
+    font-size: 25px;
+    padding-right: 34.5px;
+    padding-left: 30.5px;
+    padding-bottom: 13.5px;
+    padding-top: 11.5px;
+}
+
+.mrc {
+    left: 10%;
+    top: 15%;
+    padding-left: 9.5px;
+    padding-right: 9.5px;
+    padding-bottom: 18px;
+    transition: linear 0.2s;
+}
+
+.mrc:hover {
+    background-color: rgba(255, 255, 0, 0.63);
+}
+
+.mmenos {
+    left: 28%;
+    top: 15%;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 18px;
+    transition: linear 0.2s;
+}
+
+.mmenos:hover {
+    background-color: rgba(255, 255, 0, 0.63);
+}
+
+.mmais {
+    left: 46%;
+    top: 15%;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 18px;
+    transition: linear 0.2s;
+}
+
+.mmais:hover {
+    background-color: rgba(255, 255, 0, 0.63);
+}
+
+.on {
+    left: 64%;
+    top: 15%;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 24.5px;
+    padding-right: 24.5px;
+    transition: linear 0.2s;
+}
+
+.on:hover {
+    background-color: rgba(8, 221, 8, 0.493);
+}
+
+.campo {
+    left: 10%;
+    top: 2%;
+    padding-left: 69px;
+    padding-right: 69px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.copy {
+    top: 93%;
+    left: 20%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
